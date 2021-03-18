@@ -4,7 +4,7 @@
 #
 Name     : perl-GD
 Version  : 2.73
-Release  : 6
+Release  : 7
 URL      : https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.73.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.73.tar.gz
 Summary  : 'Perl interface to the gd2 graphics library'
@@ -125,11 +125,11 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/GD.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/GD/Group.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/GD/Image.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/GD/Polygon.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/GD/Polyline.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/GD/Simple.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/GD/GD.so
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/GD/autosplit.ix
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/GD.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/GD/Group.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/GD/Image.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/GD/Polygon.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/GD/Polyline.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/GD/Simple.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/auto/GD/GD.so
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/auto/GD/autosplit.ix
