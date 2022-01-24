@@ -1,9 +1,4 @@
-2.73
-fontconfig-dev
-libjpeg-turbo-dev
-libwebp-dev
+2.74
 perl(ExtUtils::PkgConfig)
 perl(Test::Fork)
 pkgconfig(gdlib)
-pkgconfig(x11)
-pkgconfig(xpm)
