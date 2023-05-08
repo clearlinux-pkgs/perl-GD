@@ -4,7 +4,7 @@
 #
 Name     : perl-GD
 Version  : 2.76
-Release  : 17
+Release  : 18
 URL      : https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.76.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.76.tar.gz
 Summary  : 'Perl interface to the gd2 graphics library'
