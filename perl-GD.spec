@@ -4,10 +4,10 @@
 # Using build pattern: cpan
 #
 Name     : perl-GD
-Version  : 2.77
-Release  : 19
-URL      : https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.77.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.77.tar.gz
+Version  : 2.78
+Release  : 20
+URL      : https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.78.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.78.tar.gz
 Summary  : 'Perl interface to the libgd graphics library'
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl Artistic-2.0 GPL-1.0
@@ -18,6 +18,7 @@ Requires: perl-GD-perl = %{version}-%{release}
 BuildRequires : buildreq-cpan
 BuildRequires : perl(ExtUtils::PkgConfig)
 BuildRequires : perl(Test::Fork)
+BuildRequires : perl(Test::NoWarnings)
 BuildRequires : pkgconfig(gdlib)
 # Suppress stripping binaries
 %define __strip /bin/true
@@ -77,10 +78,10 @@ perl components for the perl-GD package.
 
 
 %prep
-%setup -q -n GD-2.77
-cd %{_builddir}/GD-2.77
+%setup -q -n GD-2.78
+cd %{_builddir}/GD-2.78
 pushd ..
-cp -a GD-2.77 buildavx2
+cp -a GD-2.78 buildavx2
 popd
 
 %build
