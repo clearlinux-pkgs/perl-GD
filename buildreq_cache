@@ -1,5 +1,6 @@
-2.82
+2.83
 perl(ExtUtils::PkgConfig)
+perl(File::Which)
 perl(Test::Fork)
 perl(Test::NoWarnings)
 pkgconfig(gdlib)
