@@ -7,7 +7,7 @@
 #
 Name     : perl-GD
 Version  : 2.83
-Release  : 26
+Release  : 27
 URL      : https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.83.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RU/RURBAN/GD-2.83.tar.gz
 Summary  : 'Perl interface to the libgd graphics library'
